@@ -1,0 +1,11 @@
+.pytest_tmp/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.pyc
+.env
+.cursor/
+.ai_history/sessions

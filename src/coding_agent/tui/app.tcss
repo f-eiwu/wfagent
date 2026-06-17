@@ -1,0 +1,58 @@
+Screen {
+    background: #0d0d0d;
+}
+
+Header {
+    background: #0d0d0d;
+    color: #ffffff;
+}
+
+#app-subheader {
+    color: #888888;
+    padding: 0 1;
+    height: 1;
+    background: #0d0d0d;
+}
+
+#conversation {
+    height: 1fr;
+    background: #0d0d0d;
+    padding: 0 1;
+}
+
+.user-message {
+    background: #3a3a3a;
+    color: #ffffff;
+    text-style: bold;
+    padding: 0 1;
+    margin: 1 0 0 0;
+    width: 100%;
+}
+
+.assistant-message {
+    color: #e8e8e8;
+    padding: 0 1;
+    margin: 0 0 1 0;
+    width: 100%;
+}
+
+.system-message {
+    color: #888888;
+    text-style: italic;
+    padding: 0 1;
+    margin: 0 0 1 0;
+    width: 100%;
+}
+
+.system-message .green {
+    color: #4ade80;
+    text-style: none;
+}
+
+#status-footer {
+    dock: bottom;
+    height: 1;
+    background: #141414;
+    color: #888888;
+    padding: 0 1;
+}
